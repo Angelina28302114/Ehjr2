@@ -17,7 +17,7 @@
   }
 
   .blogs-link {
-    color: var(--title-color);
+    color: $title-color;
     font-style: normal;
     font-family: 'Ubuntu', sans-serif;
 
@@ -28,11 +28,11 @@
 
   .blogs-link:hover,
   .blogs-link:focus{
-    color: var(--accent-color);
+    color: $accent-color;
   }
 
   .blogs-title {
-    color: var(--blogs-color);
+    color:  $blogs-color;
     font-size: 30px;
     font-style: normal;
 
@@ -63,7 +63,7 @@
   }
 
   .blogs-text {
-    color: var(--blogs-color);
+    color:  $blogs-color;
     font-style: normal;
 
     margin-top: 48px;
@@ -75,7 +75,7 @@
   }
 
   .button {
-    color: var(--blogs-color);
+    color: $blogs-color;
     font-family: Playfair Display;
     font-style: normal;
     background-color: rgb(255, 255, 255);
@@ -91,6 +91,6 @@
 
   .button:hover,
   .button:focus{
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     color: white;
   }
