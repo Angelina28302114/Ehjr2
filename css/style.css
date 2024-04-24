@@ -248,4 +248,16 @@ li {
   height: 280px;
   margin-top: 50px;
   width: 100%;
+}
+
+.hero .hero-title {
+  color: #B4AD9E;
+}
+
+.tiam {
+  color: #03A9F4;
+}
+
+.tiam-title {
+  color: #7D7D7D;
 }/*# sourceMappingURL=style.css.map */
